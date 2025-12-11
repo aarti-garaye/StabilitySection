@@ -1,0 +1,61 @@
+/* UCSB color palette */
+:root {
+  --ucsb-navy: #003660;
+  --ucsb-gold: #FFCC00;
+  --text-color: #000000;
+  --footer-grey: #555555;
+}
+
+/* Slide layout */
+section {
+  background: white;
+  padding: 80px 70px 60px 70px;
+  border-top: 22px solid var(--ucsb-navy);
+  font-family: Arial, sans-serif;   /* Local font only — required for PDF */
+  color: var(--text-color);
+  position: relative;
+}
+
+/* Titles */
+h1 {
+  color: var(--ucsb-navy);
+  font-size: 48px;
+  margin-top: 80px;
+  margin-bottom: 20px;
+  font-weight: 700;
+}
+
+h2, h3 {
+  color: var(--ucsb-navy);
+  font-weight: 600;
+}
+
+/* Footer: UCSB logo text */
+section::after {
+  content: "UC SANTA BARBARA";
+  position: absolute;
+  right: 70px;
+  bottom: 20px;
+  font-size: 18px;
+  font-weight: bold;
+  color: var(--ucsb-navy);
+}
+
+/* Footer: department */
+section::before {
+  content: "Department of Statistics and Applied Probability";
+  position: absolute;
+  left: 70px;
+  bottom: 20px;
+  font-size: 14px;
+  color: var(--footer-grey);
+}
+
+/* Title slide layout override */
+section:first-of-type {
+  padding-top: 160px;
+}
+
+section:first-of-type h1 {
+  font-size: 60px;
+}
