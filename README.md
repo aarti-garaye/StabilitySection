@@ -17,37 +17,37 @@ The project Deliverables include:
 - Slides summarizing the methodology and key insights from the project
 - Well-documented code for all simulations and analyses
 - Reproducible Code + Data
-
+```
 StabilitySelection/
 │
 ├── Reports/
 │   ├── FinalReport.ipynb          # The main analysis + report notebook
-│   ├── FinalReport.html          # Exported report
+│   └── FinalReport.html           # Exported report
 │
 ├── Presentation/
-│   ├── slides.pdf      # Presentation PDF
-|   ├── FinalSlides.pptx # Presentation in PowerPoint
-│   └── slides.md # Presentation in markdown
-│   └── ucsb-theme.css # Theme for presentation
+│   ├── slides.pdf                 # Presentation PDF
+│   ├── FinalSlides.pptx           # Presentation in PowerPoint
+│   ├── slides.md                  # Presentation in markdown
+│   └── ucsb-theme.css             # Theme for presentation
 │
 ├── Scripts/
 │   ├── Code/
-|   |   ├── Reproduction.py
-|   |   ├── Extension1.py
-|   |   ├── Extension2.py
-|   |   ├── Extension3.py
-│   ├── Raw/
-|   |   ├── Darft.ipynb
-|   |   ├── Darft.html
+│   │   ├── Reproduction.py
+│   │   ├── Extension1.py
+│   │   ├── Extension2.py
+│   │   └── Extension3.py
+│   └── Raw/
+│       ├── Darft.ipynb
+│       └── Darft.html
 │
 ├── Images/
-|   ├── Extension1Basic.png
-|   ├── IncreasedVar.png
-|   ├── RandomRho.png
-|   ├── ReproduceingFig4.png
+│   ├── Extension1Basic.png
+│   ├── IncreasedVar.png
+│   ├── RandomRho.png
+│   └── ReproduceingFig4.png
 │
-└── README.md                # You are here
-
+└── README.md                      # You are here
+```
 # Reproducing Figure 4 (Meinshausen & Bühlmann, 2010)
 
 The code in Scripts/fig4_simulation.py implements:
