@@ -23,6 +23,7 @@ StabilitySelection/
 ├── Reports/
 │   ├── FinalReport.ipynb          # The main analysis + report notebook
 │   └── FinalReport.html           # Exported report
+│   └── StabilitySelectionReport.pdf # Exported report in pdf
 │
 ├── Presentation/
 │   ├── slides.pdf                 # Presentation PDF
